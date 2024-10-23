@@ -5,6 +5,7 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:get/get.dart';
 import 'bacck.dart';
 import 'login.dart';
+import 'dice.dart';
 import 'package:flutter/services.dart';
 
 void main() {
@@ -49,7 +50,7 @@ class App extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,
-          leading: IconButton(onPressed: () => Get.to(() => const Bacck(), transition: Transition.fadeIn, duration: const Duration(seconds: 1)), icon: const Icon(LineAwesomeIcons.angle_left_solid)),
+          leading: IconButton(onPressed: () => Get.to(() => const Dice(), transition: Transition.fadeIn, duration: const Duration(seconds: 1)), icon: const Icon(LineAwesomeIcons.angle_left_solid)),
           title: Text('Profile', textAlign: TextAlign.center, style: Theme.of(context).textTheme.headlineSmall),
           centerTitle: true,
           actions: [

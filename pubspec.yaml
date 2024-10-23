@@ -39,6 +39,7 @@ dependencies:
   get: ^4.0.0
   video_player: ^2.0.0
   url_launcher: ^6.0.0
+  just_audio: ^0.9.0
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +68,13 @@ flutter:
     - ass/img/lann.png
     - ass/img/deez-nutz-deez-nuts.gif
     - ass/img/Builder.gif
+    - ass/img/dice_1.png
+    - ass/img/dice_2.png
+    - ass/img/dice_3.png
+    - ass/img/dice_4.png
+    - ass/img/dice_5.png
+    - ass/img/dice_6.png
+    - ass/img/rolling-dice.mp3
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

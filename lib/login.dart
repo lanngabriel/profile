@@ -15,6 +15,7 @@ class LogIn extends StatefulWidget {
 
 class LogInState extends State<LogIn> {
   bool TextVisibility = true;
+  late bool isLoading;
 
   void PasswordVisibility() {
     setState(() {
@@ -41,7 +42,7 @@ class LogInState extends State<LogIn> {
                 const Image(image: AssetImage('ass/img/deez-nutz-deez-nuts.gif')),
                 const Text('Login',style: TextStyle(
                   fontFamily: 'Akira Expanded',
-                  fontSize: 30.0,
+                  fontSize: 40.0,
                   color: Colors.black87)),
                 const SizedBox(height: 5.0,),
                 Text.rich(
